@@ -1593,14 +1593,18 @@ background-color:#f7941d;
                flex-direction: column;
                row-gap: 70px;}
 
-.awardimageplacing{width:158px;}
+.awardimageplacing{width:150px;}
 
 .iconbox1{height: 179px;}
 
-.imagesetting{left:139px;}
+.imagesetting{left:125px;}
+
+.awardpara1{font-size: 10px;}
+
+.logo{margin-top: 1px;}
 
 .clientname{margin-top:-151px;
-            margin-left:161px;}
+            margin-left:146px;}
 
 .testimonialtext12{margin-left:65px;
                    margin-top: -49px;}
@@ -1623,10 +1627,18 @@ background-color:#f7941d;
 .shape{height: 45px;}
 
 .naturevalleytext{font-size: small;
-                  margin-left: 67px;
-                  margin-top: -14px;}
+                  margin-left:60px;
+                  margin-top:0px;}
 
 .awardpara1{font-size: 12px;}
+
+.testimonialtext1234{text-align: center;}
+
+.copypara{font-size: small;}
+
+.remediesimage{row-gap: 10px;}
+
+.quicklinksmainbox{padding-bottom: 20px;}
 
 }
 
