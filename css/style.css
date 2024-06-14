@@ -3,7 +3,9 @@
   margin: 0;
 }
 
+p{font-family:welcome;}
 
+h5{font-family: welcome;}
 
 
 .header {
@@ -284,12 +286,14 @@
 height: auto;
     background-color: #ffffff;
     padding: 0px 15px 30px 15px;
+    font-family: welcome;
 }
 
 .text {
   text-align: center;
   font-size: larger;
-  font-weight: 500;
+  
+  font-family: welcome;
 }
 
 .healingpower {
@@ -421,7 +425,7 @@ height: auto;
 
 .remedies {
        height: auto;
-       padding-bottom:10px;
+       padding:10px;
        margin-top: 38px;
        background-color: #ffffff;
        display: grid;
@@ -720,7 +724,7 @@ background-color:#f7941d;
        flex-basis: 250px;
        display: flex;
        flex-direction: column;
-       justify-content: space-between;
+       
 }
 
 
@@ -729,7 +733,7 @@ background-color:#f7941d;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 140px;
+  height:auto;
   width: 100%;
   background-color: #ffffff;
 }
@@ -1296,6 +1300,16 @@ background-color:#f7941d;
   .logoandtext{flex-direction: column;}
 }
 
+@media screen and (max-width:950px){
+
+  .awardimage {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+}
+  
+}
+
 
 @media screen and (max-width:875px){
 
@@ -1429,7 +1443,8 @@ background-color:#f7941d;
              }
 
 .awardimage{display: grid;
-            grid-template-columns: auto auto;}
+            grid-template-columns: auto auto;
+            row-gap: 10px;}
 
 .awardimageplacing{width: 274px;}
 
@@ -1470,7 +1485,7 @@ background-color:#f7941d;
 
   .footer{padding-top: 11px;}
 
-  
+  .awardimage{row-gap: 10px;}
 
   .phonecontact{margin-left: inherit;}
 
@@ -1490,6 +1505,8 @@ background-color:#f7941d;
 @media screen and (max-width:653px){
 
   .awardimageplacing{width: 236px;}
+
+  .awardimage{row-gap: 10px;}
   
 }
 
@@ -1503,6 +1520,8 @@ background-color:#f7941d;
 
 
 .getintouch{font-size: 13px;}
+
+.awardimage{row-gap: 10px;}
 
 }
 
@@ -1541,6 +1560,8 @@ background-color:#f7941d;
 .emailadjust{width: 50%;}
   
 .quicklinkstart{font-size: 12px;}
+
+.awardimage{row-gap: 10px;}
 }
 
 
@@ -1561,7 +1582,7 @@ background-color:#f7941d;
 
 .inform{font-size: 13px;} 
 
-
+.awardimage{row-gap: 10px;}
 
 .phonenumber{width: 139px;}
 }
@@ -1608,6 +1629,8 @@ background-color:#f7941d;
   .slidingbox{min-height: 48px;}
 
 .shape{height: 45px;}
+
+.awardimage{row-gap: 10px;}
 
 
 }
@@ -1678,6 +1701,8 @@ background-color:#f7941d;
 
 .quicklinksmainbox{padding-bottom: 20px;}
 
+.awardimage{row-gap: 10px;}
+
 }
 
 @media screen and (max-width:468px){
@@ -1707,6 +1732,8 @@ background-color:#f7941d;
             font-size: 8px;}
 
   .awardsheading{font-size: small;}
+
+  .awardimage{row-gap: 10px;}
   
 }
 
@@ -1723,6 +1750,9 @@ background-color:#f7941d;
 
 .naturevalleytext{    margin-top: -13px;
   font-size: small;}
+
+
+  .awardimage{row-gap: 10px;}
 
 
 }
