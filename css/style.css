@@ -1633,7 +1633,7 @@ background-color:#f7941d;
 
 @media screen and (max-width:480px){
 
-.textcarousel{top:88px;}
+
 
 .immerse1{font-size: 27px;}
 
@@ -1657,8 +1657,7 @@ background-color:#f7941d;
 
 .logo{margin-top: 1px;}
 
-.clientname{margin-top:-151px;
-            margin-left:146px;}
+
 
 
 
@@ -1685,7 +1684,7 @@ background-color:#f7941d;
 
 .awardpara1{font-size: 12px;}
 
-.testimonialtext1234{text-align: center;}
+
 
 .copypara{font-size: small;}
 
@@ -1702,22 +1701,14 @@ background-color:#f7941d;
 
   .underline{width: 240px;}
 
-  .testimonialplacing{
+ 
+  
 
-    height: 349px;;
-  }
+  
 
-  .testimonialtext12{
+  
 
-    height:75px;
-  }
-
-  .clientname{margin-top: -108px;}
-
-  .imagetestimonial{
-    bottom:25px;
-  }
-
+  
   .immerse1{font-size: 19px;}
 
   .Immerse2{margin-top: -9px;
@@ -1732,15 +1723,10 @@ background-color:#f7941d;
 
 @media screen and (max-width:420px){
 
-.clientname{margin-left: 142px;
-            margin-top:-105px;}
 
 
 
-.testimonialplacing{height: 327px;}
 
-.naturevalleytext{    margin-top: -13px;
-  font-size: small;}
 
 
   .awardimage{row-gap: 10px;}
