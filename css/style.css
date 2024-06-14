@@ -802,7 +802,7 @@ background-color:#f7941d;
 
 .testimonialmainbox {
   background-color: #f7941d;
-  height: 307px;
+  height:auto;
   padding-top: 103px;
   padding-bottom: 103px;
   padding-left: 13%;
@@ -836,7 +836,7 @@ background-color:#f7941d;
 }
 
 .testimonialplacing {
-  height: 340px;
+  height: auto;
   background-color: #f7941d;
   display: flex;
   flex-direction: column;
@@ -854,7 +854,7 @@ background-color:#f7941d;
 }
 
 .imagetestimonial {
-  width: 10%;
+
   height:auto;
   background-color: #ffffff;
    
@@ -866,6 +866,8 @@ background-color:#f7941d;
     bottom: 50px;
     left: 10%;
 }
+
+.testimonial{margin-top: 30px;}
 
 .imgtestimonial{
   width :100%;
@@ -929,6 +931,7 @@ background-color:#f7941d;
   height: auto;
   background-color: #f1f1f1;
   display: flex;
+  gap: 20px;
 }
 
 
@@ -1032,11 +1035,11 @@ background-color:#f7941d;
 
 
 .emailadjust {
-  width: 90%;
+  width:22px;
 }
 
 .phoneicon12 {
-  width: 90%;
+  width:22px;
 }
 
 .quicklinksmainbox {
@@ -1286,8 +1289,8 @@ background-color:#f7941d;
 
 
 
-  .imagetestimonial {
-                    width: 16%;}
+  /* .imagetestimonial {
+                    width: 16%;} */
 
 
 
@@ -1311,13 +1314,13 @@ background-color:#f7941d;
 
   .logoandtext{flex-direction: column;}
 
-  .emailadjust{width: auto;}
+  
 
 
 
 
 
-  .imagetestimonial{width: 15%;}
+  /* .imagetestimonial{width: 15%;} */
 
   .textcarousel{top: 148px;}
 }
@@ -1462,6 +1465,8 @@ background-color:#f7941d;
 .Immerse2{
           font-size: 15px;
 }
+.imagesetting{margin:auto}
+
 
 }
 
@@ -1595,7 +1600,8 @@ background-color:#f7941d;
 
 .awardimageplacing{width: 181px;}
 
-
+.imagesetting{left: 0;
+              width: 50%;}
 
 .subscribetext{font-size: smaller;}
 
@@ -1701,14 +1707,6 @@ background-color:#f7941d;
 
   .underline{width: 240px;}
 
- 
-  
-
-  
-
-  
-
-  
   .immerse1{font-size: 19px;}
 
   .Immerse2{margin-top: -9px;
@@ -1722,15 +1720,29 @@ background-color:#f7941d;
 
 
 @media screen and (max-width:420px){
-
-
-
-
-
-
-
   .awardimage{row-gap: 10px;}
 
+
+}
+
+@media screen and (max-width:371px){
+
+  .icons2 {
+    grid-template-columns: auto;}
+
+  .awardimage{grid-template-columns: auto;}
+
+  .awardimage1{align-items: center;}
+
+  .imagesetting{bottom: 31px;
+                left: 0;}
+
+
+
+  .imagetestimonial {
+    width: 50%;
+
+}
 
 }
 
