@@ -7,7 +7,7 @@ p{font-family:welcome;}
 
 h5{font-family: welcome;}
 
-
+h4{font-family: welcome;}
 .header {
   height: 100px;
   background-color: #ffffff;
@@ -1017,6 +1017,7 @@ background-color:#f7941d;
   background-color: #f1f1f1;
   display: flex;
   align-items: center;
+  gap: 6px;
 }
 
 .phoneicon {
@@ -1039,7 +1040,7 @@ background-color:#f7941d;
 }
 
 .phoneicon12 {
-  width:22px;
+  width:26px;
 }
 
 .quicklinksmainbox {
@@ -1207,6 +1208,8 @@ background-color:#f7941d;
 
 @media screen and (max-width:1220px){
 
+  .mainfooter1{flex-basis: 41%;}
+
 .extra{flex-basis: 60%;}
 }
 
@@ -1258,6 +1261,8 @@ background-color:#f7941d;
   right: -941px;}
 
 .underline{width: 600px;}
+
+.logoandtext{flex-direction: column;}
   
 }
 
@@ -1313,6 +1318,9 @@ background-color:#f7941d;
   .extra{flex-basis:94%;}
 
   .logoandtext{flex-direction: column;}
+  
+  .quicklinksmainbox{height: auto;}
+}
 
   
 
@@ -1323,7 +1331,7 @@ background-color:#f7941d;
   /* .imagetestimonial{width: 15%;} */
 
   .textcarousel{top: 148px;}
-}
+
 
 
 
@@ -1493,37 +1501,41 @@ background-color:#f7941d;
   
   .getintouch{width: 86%;}
 
+  
+  .imgtestimonial {
+    width: 78px;
+}
 
 }
+
+
+  @media screen and (max-width:668px){
+
+    .awardimageplacing {
+      width: 243px;}
+
+      .footer{flex-direction: column;}
+
+      .quicklinkstart{height: auto;}
+
+.quicklinksmainbox{padding-bottom: 22px;}
+      
+      
+  }
+
+
+
 
 @media screen and (max-width:653px){
 
   .awardimageplacing{width: 236px;}
 
   .awardimage{row-gap: 10px;}
+
+
   
 }
 
-
-@media screen and (max-width:612px){
-
-
-.Contact{margin: inherit;}
-
-.phoneicon{width: 19%;}
-
-
-.getintouch{font-size: 13px;}
-
-.awardimage{row-gap: 10px;}
-
-.orginaltestimonial{
-  flex-direction:column;
-}
-
-.testimonialtext12{text-align: center;}
-
-}
 
 
 
@@ -1565,7 +1577,31 @@ background-color:#f7941d;
 }
 
 
+@media screen and (max-width:612px){
 
+  .textcarousel {
+    top: 94px;
+  }
+
+.Contact{margin: inherit;}
+
+.phoneicon{width: 19%;}
+
+
+.getintouch{font-size: 13px;}
+
+.awardimage{row-gap: 10px;}
+
+.orginaltestimonial{
+  flex-direction:column;
+}
+
+.testimonialtext12{text-align: center;}
+
+.awardimageplacing {
+  width: 186px;}
+
+}
 
 @media screen and (max-width:608px){
 
@@ -1576,16 +1612,34 @@ background-color:#f7941d;
   
 }
 
-.Immerse2{margin-top: 10px;}
+.imagesetting {
+  width: 55%;}
 
-.awardimageplacing{width: 215px;}
+.textcarousel {
+  top: 58px;}
+
+  .awardimageplacing {
+    width: 220px;}
 
 .inform{font-size: 13px;} 
 
 .awardimage{row-gap: 10px;}
 
 .phonenumber{width: 139px;}
+
+.imagesetting {
+  left: 0;
 }
+
+}
+
+@media screen and (max-width:578px){
+
+  .awardimageplacing {
+    width:200px;
+}
+}
+
 
 
 
@@ -1632,6 +1686,8 @@ background-color:#f7941d;
 
 .awardimage{row-gap: 10px;}
 
+.phoneicon12{width: 20px;}
+
 
 }
 
@@ -1664,7 +1720,8 @@ background-color:#f7941d;
 .logo{margin-top: 1px;}
 
 
-
+.awardimageplacing {
+  width: 161px;}
 
 
 .phonenumber{font-size: 14px;}
@@ -1725,7 +1782,7 @@ background-color:#f7941d;
 
 }
 
-@media screen and (max-width:371px){
+@media screen and (max-width:400px){
 
   .icons2 {
     grid-template-columns: auto;}
