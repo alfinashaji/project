@@ -1613,7 +1613,8 @@ background-color:#f7941d;
 }
 
 .imagesetting {
-  width: 55%;}
+  width: 55%;
+  left: 0;}
 
 .textcarousel {
   top: 58px;}
@@ -1627,9 +1628,6 @@ background-color:#f7941d;
 
 .phonenumber{width: 139px;}
 
-.imagesetting {
-  left: 0;
-}
 
 }
 
@@ -1638,6 +1636,8 @@ background-color:#f7941d;
   .awardimageplacing {
     width:200px;
 }
+
+.imagesetting{left: 0;}
 }
 
 
@@ -1687,6 +1687,8 @@ background-color:#f7941d;
 .awardimage{row-gap: 10px;}
 
 .phoneicon12{width: 20px;}
+
+.imagesetting{left: 0;}
 
 
 }
@@ -1747,7 +1749,7 @@ background-color:#f7941d;
 
 .awardpara1{font-size: 12px;}
 
-
+.imagesetting{left: 0;}
 
 .copypara{font-size: small;}
 
@@ -1772,12 +1774,16 @@ background-color:#f7941d;
   .awardsheading{font-size: small;}
 
   .awardimage{row-gap: 10px;}
+
+  .imagesetting{left: 0;}
   
 }
 
 
 @media screen and (max-width:420px){
   .awardimage{row-gap: 10px;}
+
+  .imagesetting{left: 0;}
 
 
 }
@@ -1793,8 +1799,6 @@ background-color:#f7941d;
 
   .imagesetting{bottom: 31px;
                 left: 0;}
-
-
 
   .imagetestimonial {
     width: 50%;
