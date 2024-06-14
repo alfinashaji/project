@@ -1281,7 +1281,39 @@ background-color:#f7941d;
 
 @media screen and (max-width:920px){
 
- .extra{flex-basis:84%;}  
+ .extra{flex-basis:84%;}
+ 
+ .textcarousel{top: 162px;}
+
+ .testimonialtext12{margin-top: -32px;
+                    margin-left: 192px;}
+
+  .imagetestimonial {
+                    width: 16%;}
+
+  .imagesetting{left:26px;}
+
+  .logoandtext{flex-direction: column;}
+}
+
+
+@media screen and (max-width:875px){
+
+  .extra{flex-basis:94%;}
+
+  .logoandtext{flex-direction: column;}
+
+  .emailadjust{width: auto;}
+
+  .testimonialtext12{margin-top: -50px;
+                     margin-left: 173px;}
+
+  .imagesetting{bottom: 49px;
+                left: 19px;}
+
+  .imagetestimonial{width: 15%;}
+
+  .textcarousel{top: 148px;}
 }
 
 
@@ -1316,6 +1348,34 @@ background-color:#f7941d;
   }
 
 
+@media  screen and (max-width:845px){
+
+  .extra{flex-basis: 84%;}
+  
+}
+
+
+@media screen and (max-width:833px){
+
+  .underline{width: 600px;}
+
+  .testimonialtext12{margin-left: 197px;}
+
+
+}
+
+
+@media screen and (max-width:817px){
+
+  .underline{width: 600px;}
+  
+  .awardpara1{font-size: smaller;}
+  
+  .testimonialtext12{margin-left: 170px;}
+  }
+  
+
+
 
 @media screen and (max-width:803px){
 
@@ -1340,30 +1400,6 @@ background-color:#f7941d;
 .emailplaced{    font-size: x-small;}
 
 } 
-
-
-@media screen and (max-width:817px){
-
-.underline{width: 600px;}
-
-.awardpara1{font-size: smaller;}
-
-.testimonialtext12{margin-left: 170px;}
-}
-
-
-@media screen and (max-width:833px){
-
-  .underline{width: 600px;}
-
-  .testimonialtext12{margin-left: 197px;}
-
-
-}
-
-
-
-  
 
 
 @media screen and (max-width:768px){
@@ -1412,6 +1448,8 @@ background-color:#f7941d;
 .shape{height: 31px;}
 
 .slidingbox{min-height: 14px;}
+
+.extra{flex-basis: 102%;}
 
 }
 
