@@ -262,7 +262,7 @@ h4{font-family: welcome;}
        display: flex;
        justify-content: center;
        gap: 10px;
-       padding: 40px 15px 40px 15px;
+       padding: 35px 15px 40px 15px;
        align-items: center;
    }
 
@@ -285,7 +285,7 @@ h4{font-family: welcome;}
 .welcometext {
 height: auto;
     background-color: #ffffff;
-    padding: 0px 15px 30px 15px;
+    padding: 0px 15px 0px 15px;
     font-family: welcome;
 }
 
@@ -426,7 +426,7 @@ height: auto;
 .remedies {
        height: auto;
        padding:10px;
-       margin-top: 38px;
+       margin-top: 5px;
        background-color: #ffffff;
        display: grid;
        grid-template-columns: auto auto auto auto;
@@ -1201,9 +1201,6 @@ background-color:#f7941d;
 
 
 
-
-.copypara{font-family: immerse;}
-
 /* media=1091 */
 
 @media screen and (max-width:1220px){
@@ -1322,15 +1319,7 @@ background-color:#f7941d;
   .quicklinksmainbox{height: auto;}
 }
 
-  
 
-
-
-
-
-  /* .imagetestimonial{width: 15%;} */
-
-  .textcarousel{top: 148px;}
 
 
 
@@ -1609,6 +1598,7 @@ background-color:#f7941d;
 .remedies {
  
   overflow-x:scroll;
+  column-gap: 10px;
   
 }
 
@@ -1784,14 +1774,17 @@ background-color:#f7941d;
   .awardimage{row-gap: 10px;}
 
   .imagesetting{left: 0;}
-
+   
+  .awardimageplacing {
+    width: 147px;}
 
 }
 
 @media screen and (max-width:400px){
 
   .icons2 {
-    grid-template-columns: auto;}
+    grid-template-columns: auto;
+    gap: 20px;}
 
   .awardimage{grid-template-columns: auto;}
 
@@ -1804,6 +1797,12 @@ background-color:#f7941d;
     width: 50%;
 
 }
+
+.powerofayurveda1{gap: 20px;}
+
+.remedies{column-gap: 15px;}
+
+.logoandtext{gap: 25px}
 
 }
 
