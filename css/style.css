@@ -3,11 +3,17 @@
   margin: 0;
 }
 
-p{font-family:welcome;}
+p {
+  font-family: welcome;
+}
 
-h5{font-family: welcome;}
+h5 {
+  font-family: welcome;
+}
 
-h4{font-family: welcome;}
+h4 {
+  font-family: welcome;
+}
 .header {
   height: 100px;
   background-color: #ffffff;
@@ -21,15 +27,11 @@ h4{font-family: welcome;}
   box-shadow: 0px 1px 5px #00000026;
 }
 
-
-
-
 .mobilemenu {
   display: none;
 }
 
 .logobox {
-
   flex-grow: 1;
   background-color: #ffffff;
   display: flex;
@@ -37,7 +39,7 @@ h4{font-family: welcome;}
 }
 
 .logoinbox {
-  height:auto;
+  height: auto;
   width: 40%;
   background-color: #ffffff;
 }
@@ -48,8 +50,7 @@ h4{font-family: welcome;}
 }
 
 .headertext {
- 
-  flex-grow:3;
+  flex-grow: 3;
   background-color: #ffffff;
   display: flex;
   flex-direction: row-reverse;
@@ -58,9 +59,9 @@ h4{font-family: welcome;}
 
 .headertext1 {
   width: 100%;
-  height:auto;
+  height: auto;
   background-color: #ffffff;
-  margin-top:42px;
+  margin-top: 42px;
 }
 
 @font-face {
@@ -69,18 +70,18 @@ h4{font-family: welcome;}
 }
 
 .navtext li {
-       list-style: none;
-       float: left;
-       margin-left: 5%;
-       cursor: pointer;
-       height: 60px;
-       font-family: navtext;
-       font-size: 15px;
-       font-weight: 600;
+  list-style: none;
+  float: left;
+  margin-left: 5%;
+  cursor: pointer;
+  height: 60px;
+  font-family: navtext;
+  font-size: 15px;
+  font-weight: 600;
 }
 .navtext1 li {
   list-style: none;
- 
+
   margin-left: 5%;
   cursor: pointer;
   height: 60px;
@@ -135,7 +136,7 @@ h4{font-family: welcome;}
   border-radius: 11px 11px 11px 12px;
   padding: 10px;
   border: 4px solid orange;
-  height: 19px; 
+  height: 19px;
   color: #ffffff;
 }
 
@@ -163,9 +164,7 @@ h4{font-family: welcome;}
   margin-top: 15px;
 }
 
-
 .headertextin {
-
   flex-grow: 1;
   background-color: #ffffff;
   display: flex;
@@ -190,41 +189,41 @@ h4{font-family: welcome;}
   font-weight: 800;
 }
 
-
-.booknow2{ height: 50px;
+.booknow2 {
+  height: 50px;
   width: 100%;
   border-radius: 12px 12px 12px 12px;
   background-color: #f7941d;
   color: aliceblue;
   border: none;
   font-weight: 800;
- 
-
 }
 
-.menubar1{height:150vh;
-          width:83%;
-         background-color:#ffffff;
-          z-index:999;
-          position: absolute;
-          right:-787px;
-          top: 101px;
-           display: none;
-          position: fixed;
-           transition:1s all;}
+.menubar1 {
+  height: 150vh;
+  width: 83%;
+  background-color: #ffffff;
+  z-index: 999;
+  position: absolute;
+  right: -787px;
+  top: 101px;
+  display: none;
+  position: fixed;
+  transition: 1s all;
+}
 
-.menubox1{margin-left: 22px;
-          margin-top: 30px;}
+.menubox1 {
+  margin-left: 22px;
+  margin-top: 30px;
+}
 
-
-.menuimage{width:100%;}
-
-
+.menuimage {
+  width: 100%;
+}
 
 .banner {
   width: 100%;
 }
-
 
 @font-face {
   font-family: immerse;
@@ -238,15 +237,14 @@ h4{font-family: welcome;}
   text-transform: uppercase;
 }
 
-
-
 .Immerse2 {
-  font-family:immerse;
+  font-family: immerse;
   text-transform: capitalize;
-
 }
 
-.underline{width:40%}
+.underline {
+  width: 40%;
+}
 .welcome {
   height: auto;
   background-color: #ffffff;
@@ -258,13 +256,13 @@ h4{font-family: welcome;}
 }
 
 .welcome1 {
-       background-color: #ffffff;
-       display: flex;
-       justify-content: center;
-       gap: 10px;
-       padding: 35px 15px 40px 15px;
-       align-items: center;
-   }
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 35px 15px 40px 15px;
+  align-items: center;
+}
 
 @font-face {
   font-family: welcome;
@@ -276,23 +274,22 @@ h4{font-family: welcome;}
   font-family: welcome;
 }
 
-
 .naturevalley {
   margin: bottom -2px;
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .welcometext {
-height: auto;
-    background-color: #ffffff;
-    padding: 0px 15px 0px 15px;
-    font-family: welcome;
+  height: auto;
+  background-color: #ffffff;
+  padding: 0px 15px 0px 15px;
+  font-family: welcome;
 }
 
 .text {
   text-align: center;
   font-size: larger;
-  
+
   font-family: welcome;
 }
 
@@ -307,12 +304,12 @@ height: auto;
 }
 
 .healingpowerin {
-       background-color: #ffffff;
-       display: flex;
-       justify-content: center;
-       gap: 10px;
-       padding: 40px 15px 40px 15px;
-       align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 15px 40px 15px;
+  align-items: center;
 }
 
 @font-face {
@@ -324,9 +321,8 @@ height: auto;
   font-family: healing;
 }
 
-
 .heading1 {
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .powerofayurveda {
@@ -337,15 +333,13 @@ height: auto;
 }
 
 .powerofayurveda1 {
-       flex-grow: 1;
-       background-color: #ffffff;
-       display: grid;
-       grid-template-columns: auto auto auto auto;
-       grid-template-rows: auto auto;
-       flex-wrap: wrap;
-       gap: 10px 10px;
-   
-  
+  flex-grow: 1;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  flex-wrap: wrap;
+  gap: 10px 10px;
 }
 
 .deseas {
@@ -392,19 +386,20 @@ height: auto;
   height: 67px;
 }
 
-.natural {height: auto;
+.natural {
+  height: auto;
   background-color: #ffffff;
   padding-left: 13%;
   padding-right: 13%;
 }
 
 .natural1 {
-       background-color: #ffffff;
-       display: flex;
-       justify-content: center;
-       gap: 10px;
-       padding: 40px 15px 40px 15px;
-       align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 15px 40px 15px;
+  align-items: center;
 }
 
 @font-face {
@@ -416,62 +411,57 @@ height: auto;
   font-family: natural;
 }
 
-
 .heading3 {
   font-weight: 600;
   margin-bottom: -5px;
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .remedies {
-       height: auto;
-       padding:10px;
-       margin-top: 5px;
-       background-color: #ffffff;
-       display: grid;
-       grid-template-columns: auto auto auto auto;
-       border: 1px solid #d3d3d338;
-       justify-items: start;
-       overflow-x:hidden;
-       
+  height: auto;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid #d3d3d338;
+  justify-items: start;
+  overflow-x: hidden;
 }
 
 /* width */
 ::-webkit-scrollbar {
-       width: 5px;
-       height:5px;
-     }
-     
-     /* Track */
-     ::-webkit-scrollbar-track {
-       background: rgb(188, 188, 188); 
-      
-     }
-      
-     ::-webkit-resizer {display: none;}
-    
-     /* Handle */
-     ::-webkit-scrollbar-thumb {
-       background: #df7229;
-    
-     }
-     
-     /* Handle on hover */
-     ::-webkit-scrollbar-thumb:hover {
-       background: #555; 
-     }
-  
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(188, 188, 188);
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #df7229;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 .button1 {
-       
-              height: 69px;
-              border: none;
-              border-radius: 14px 14px 14px 14px;
-              cursor: pointer;
-              background-color: #ffffff;
-              transition: 1s all;
-              padding: 0px 45px;
-       
+  height: 69px;
+  border: none;
+  border-radius: 14px 14px 14px 14px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: 1s all;
+  padding: 0px 45px;
 }
 
 .ki {
@@ -483,105 +473,100 @@ height: auto;
 }
 
 .remediesimage {
-       height: auto;
-       margin-top: 30px;
-       background-color: #ffffff;
-       display: flex;
-       align-items: center;
-       column-gap: 10px;
+  height: auto;
+  margin-top: 30px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  column-gap: 10px;
 }
 
-.remediesimagebox {flex-grow: 1;
-       height: auto;
-       background-color: #ffffff;
-       position: relative;
-       cursor: pointer;
-       overflow: hidden;
-       
+.remediesimagebox {
+  flex-grow: 1;
+  height: auto;
+  background-color: #ffffff;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.slidingbox{
+.slidingbox {
   min-height: 55px;
   padding: 3px;
-            background-color: #ef8b07;
-            position:absolute;
-            width:0;
-            bottom:3px;
-            border-radius: 26px 0px 0px 26px;
-           right: 0;
-           display: flex;
-           flex-direction: row-reverse;
-           align-items: center;
-           justify-content: flex-end;
-           gap: 10px;
-           margin-bottom:12px;
-          margin-left: 5%;}
+  background-color: #ef8b07;
+  position: absolute;
+  width: 0;
+  bottom: 3px;
+  border-radius: 26px 0px 0px 26px;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 12px;
+  margin-left: 5%;
+}
 
+.shape:hover:before {
+  content: "";
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 5px solid rgba(240, 218, 11, 0.821);
+  border-bottom: 5px solid orange;
+  animation: spinner 1s linear infinite;
+}
 
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-  .shape:hover:before{content:"";
-    position: absolute;
-    height: 45px;
-    width: 45px;
-    border-radius:50px;
-    background-color:transparent;
-               border:5px solid rgba(240, 218, 11, 0.821);
-               border-bottom: 5px solid orange;
-              animation:spinner 1s linear infinite;}
-    
-              
+.remediesimagebox:hover .slidingbox {
+  width: 95%;
+  transition: 0.3s all;
+}
 
+.shape {
+  background-color: white;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-
-  @keyframes spinner {
-
-   100%{transform: rotate(360deg);}
-
-    }           
-
-  
-  .remediesimagebox:hover .slidingbox{width:95%;
-                  transition: .3s all;
-                  }
-
-
-.shape{background-color: white;
-       border-radius: 50%;
-       height: 45px;
-       width: 45px;
-       margin-left: 2%;
-      display: flex;
-     align-items: center;
-     justify-content: center;}
-
-
-.herbal1{color: #ffffff;}
-
-
+.herbal1 {
+  color: #ffffff;
+}
 
 .qwer {
   width: 100%;
 }
 
-
-
 .icons {
-       height: auto;
-       background-color: #ffffff;
-       padding-left: 13%;
-       padding-right: 13%;
-       display: flex;
-       flex-direction: column;
+  height: auto;
+  background-color: #ffffff;
+  padding-left: 13%;
+  padding-right: 13%;
+  display: flex;
+  flex-direction: column;
 }
 
 .icons1 {
-       background-color: #ffffff;
-       display: flex;
-       justify-content: center;
-       gap: 10px;
-       padding: 40px 15px 40px 15px;
-       align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 15px 40px 15px;
+  align-items: center;
 }
 
 @font-face {
@@ -593,19 +578,17 @@ height: auto;
   font-family: our;
 }
 
-
 .heading5 {
-  font-family:immerse;
+  font-family: immerse;
   margin-bottom: 5px;
 }
 
 .icons2 {
-       height: auto;
-       background-color: #ffffff;
-       display: grid;
-       grid-template-columns: 25% 25% 25% 25%;
-       gap: 10px;
-   
+  height: auto;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 10px;
 }
 
 .icons3 {
@@ -616,47 +599,45 @@ height: auto;
   justify-content: space-between;
 }
 
-.iconperspective{
+.iconperspective {
   perspective: 100px;
   cursor: pointer;
 }
 
-.iconperspective:hover .iconbox1{
-
-transition: 1s all ;
-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-background-color:#f7941d;
-  animation:perspectiveicon 1s linear;
-  box-shadow: inset -4px -7px 16px #c37308
+.iconperspective:hover .iconbox1 {
+  transition: 1s all;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: #f7941d;
+  animation: perspectiveicon 1s linear;
+  box-shadow: inset -4px -7px 16px #c37308;
 }
 
+.iconperspective:hover .imgicon1 {
+  filter: brightness(100);
+}
 
-
-
-.iconperspective:hover .imgicon1{filter: brightness(100);}
-
-.iconperspective:hover .icontext1{color: #ffffff;}
+.iconperspective:hover .icontext1 {
+  color: #ffffff;
+}
 
 @keyframes perspectiveicon {
-  30%{
+  30% {
     transform: rotateY(2deg);
   }
-60%{
-  transform: rotateY(-2deg);
-}
-
+  60% {
+    transform: rotateY(-2deg);
+  }
 }
 
 .iconbox1 {
-      
-       height: 240px;
-       background-color: #e5e5e5;
-       box-shadow: 1px 1px 6px -2px #bbbbbbb3;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: space-evenly;
-       border-radius: 23px 23px 23px 23px;
+  height: 240px;
+  background-color: #e5e5e5;
+  box-shadow: 1px 1px 6px -2px #bbbbbbb3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 23px 23px 23px 23px;
 }
 
 @font-face {
@@ -669,8 +650,8 @@ background-color:#f7941d;
 }
 
 .imgicon1 {
-       width: 87px;
-       height: 87px;
+  width: 87px;
+  height: 87px;
 }
 
 .awards {
@@ -686,12 +667,12 @@ background-color:#f7941d;
 }
 
 .awardsheading {
-       background-color: #ffffff;
-       display: flex;
-       justify-content: center;
-       gap: 10px;
-       padding: 40px 15px 40px 15px;
-       align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 15px 40px 15px;
+  align-items: center;
 }
 
 @font-face {
@@ -703,10 +684,8 @@ background-color:#f7941d;
   font-family: awardstext;
 }
 
-
-
 .awardsaccrediation {
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .awardimage {
@@ -718,22 +697,19 @@ background-color:#f7941d;
 }
 
 .awardimage1 {
-       height: auto;
-       background-color: #ffffff;
-       flex-grow: 1;
-       flex-basis: 250px;
-       display: flex;
-       flex-direction: column;
-       
+  height: auto;
+  background-color: #ffffff;
+  flex-grow: 1;
+  flex-basis: 250px;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .awardimageinbox {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:auto;
+  height: auto;
   width: 100%;
   background-color: #ffffff;
 }
@@ -748,11 +724,11 @@ background-color:#f7941d;
 }
 
 .awardtexthead {
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .iuy {
-      text-align:center; 
+  text-align: center;
 }
 
 .iut {
@@ -775,15 +751,13 @@ background-color:#f7941d;
   text-align: center;
 }
 
-
-
 .testimonialheading {
-       background-color: #ffffff;
-       display: flex;
-       justify-content: center;
-       gap: 10px;
-       padding: 40px 15px 40px 15px;
-       align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 15px 40px 15px;
+  align-items: center;
 }
 
 @font-face {
@@ -795,14 +769,13 @@ background-color:#f7941d;
   font-family: testimonial;
 }
 
-
 .testimonialheading1 {
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .testimonialmainbox {
   background-color: #f7941d;
-  height:auto;
+  height: auto;
   padding-top: 103px;
   padding-bottom: 103px;
   padding-left: 13%;
@@ -844,35 +817,33 @@ background-color:#f7941d;
 }
 
 .orginaltestimonial {
-  
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  gap:0px 70px;
+  gap: 0px 70px;
   padding: 20px 30px;
   align-items: center;
 }
 
 .imagetestimonial {
-
-  height:auto;
+  height: auto;
   background-color: #ffffff;
-   
 }
 
 .imagesetting {
   width: 100%;
   position: relative;
-    bottom: 50px;
-    left: 10%;
+  bottom: 50px;
+  left: 10%;
 }
 
-.testimonial{margin-top: 30px;}
-
-.imgtestimonial{
-  width :100%;
+.testimonial {
+  margin-top: 30px;
 }
 
+.imgtestimonial {
+  width: 100%;
+}
 
 @font-face {
   font-family: lighttext;
@@ -890,9 +861,8 @@ background-color:#f7941d;
 }
 
 .clientname {
- text-align: center;
+  text-align: center;
 }
-
 
 .staricon {
   width: 100%;
@@ -900,7 +870,7 @@ background-color:#f7941d;
 }
 
 .googlemap {
-  height:450px;
+  height: 450px;
   background-color: #efc96a;
 }
 
@@ -914,13 +884,11 @@ background-color:#f7941d;
   padding-top: 65px;
 }
 
-
-
 .mainfooter1 {
   flex-grow: 1;
   height: auto;
   background-color: #f1f1f1;
-  flex-basis:28%;
+  flex-basis: 28%;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -934,13 +902,15 @@ background-color:#f7941d;
   gap: 20px;
 }
 
+.extra {
+  flex-basis: 39%;
+  row-gap: 10px;
+}
 
-.extra{flex-basis:39%;
-       row-gap: 10px;}
-
-.flexbox{display: flex;
-         column-gap:50px;}
-
+.flexbox {
+  display: flex;
+  column-gap: 50px;
+}
 
 .footerlogobox {
   width: 26%;
@@ -949,14 +919,12 @@ background-color:#f7941d;
 }
 
 .logoarrange {
-            width: 70px;
+  width: 70px;
 }
 
 .logotext {
-
   height: auto;
   background-color: #f1f1f1;
- 
 }
 
 @font-face {
@@ -990,7 +958,6 @@ background-color:#f7941d;
   background-color: #f1f1f1;
   display: flex;
   column-gap: 10px;
- 
 }
 
 .Contact {
@@ -1013,7 +980,7 @@ background-color:#f7941d;
   background-color: #f1f1f1;
 }
 
-.phonenumber{
+.phonenumber {
   background-color: #f1f1f1;
   display: flex;
   align-items: center;
@@ -1021,7 +988,6 @@ background-color:#f7941d;
 }
 
 .phoneicon {
-
   background-color: #f1f1f1;
 }
 
@@ -1034,13 +1000,12 @@ background-color:#f7941d;
   flex-direction: column;
 }
 
-
 .emailadjust {
-  width:22px;
+  width: 22px;
 }
 
 .phoneicon12 {
-  width:26px;
+  width: 26px;
 }
 
 .quicklinksmainbox {
@@ -1057,12 +1022,10 @@ background-color:#f7941d;
   width: 100%;
   height: 450px;
   background-color: #f1f1f1;
- 
 }
 
-
 .quicklinkhead {
-  font-family:immerse;
+  font-family: immerse;
 }
 
 .links12 {
@@ -1093,7 +1056,6 @@ background-color:#f7941d;
 .getintouch {
   width: 50%;
   background-color: #f1f1f1;
-  
 }
 
 .insta {
@@ -1126,14 +1088,11 @@ background-color:#f7941d;
   background-color: #f1f1f1;
 }
 
-
-
 .inform {
-  font-family:immerse;
-  
+  font-family: immerse;
 }
 
-.mainiconbox{
+.mainiconbox {
   width: 52%;
   background-color: #f1f1f1;
   display: flex;
@@ -1186,635 +1145,840 @@ background-color:#f7941d;
   border: none;
 }
 
-
 .subscribetext {
-  font-family:immerse;
+  font-family: immerse;
 }
 
-
-.copyright{height:30px;
-           width: 100%;
-           background-color:gray;
-            text-align: center;
-            color: white;
-           padding-top: 10px;}
-
-
+.copyright {
+  height: 30px;
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
 
 /* media=1091 */
 
-@media screen and (max-width:1220px){
+@media screen and (max-width: 1220px) {
+  .mainfooter1 {
+    flex-basis: 41%;
+  }
 
-  .mainfooter1{flex-basis: 41%;}
-
-.extra{flex-basis: 60%;}
+  .extra {
+    flex-basis: 60%;
+  }
 }
 
-@media screen and (max-width:1091px){
+@media screen and (max-width: 1091px) {
+  .underline {
+    width: 600px;
+  }
 
-  .underline{width: 600px;}
+  .booknow2 {
+    display: none;
+  }
 
-.booknow2{display: none;}
+  .booknow1 {
+    display: none;
+  }
 
-.booknow1{display: none;}
+  .navtext {
+    display: none;
+  }
 
-.navtext{display: none;}
+  .menubar1 {
+    display: block;
+  }
 
-.menubar1{display: block;}
+  .mobilemenu {
+    display: block;
+  }
 
-.mobilemenu{display: block;}
+  .heading2 {
+    margin-top: 10px;
+  }
 
-.heading2{margin-top: 10px;}
+  .remedies {
+    margin-top: inherit;
+  }
 
-.remedies{margin-top: inherit;}
+  .iuy {
+    margin-top: 10px;
+  }
 
-.iuy{margin-top: 10px;}
+  .getintouch {
+    width: 65%;
+  }
 
+  .iut {
+    margin: inherit;
+  }
 
+  .in8 {
+    margin: inherit;
+  }
 
-.getintouch{width: 65%;}
-
-.iut{margin:inherit;}
-
-.in8{margin: inherit;}
-
-.in0{margin: inherit;}
+  .in0 {
+    margin: inherit;
+  }
 }
 
-@media screen and (max-width:1085px){
+@media screen and (max-width: 1085px) {
+  .menubar1 {
+    right: -925px;
+  }
 
-  .menubar1{
-    right: -925px;}
-
-    .underline{width: 600px;}
-  
-   }
-
-
-
-@media screen and (max-width:1077px){
-
-.menubar1{
-  right: -941px;}
-
-.underline{width: 600px;}
-
-.logoandtext{flex-direction: column;}
-  
+  .underline {
+    width: 600px;
+  }
 }
 
-@media screen and (max-width:1033px){
+@media screen and (max-width: 1077px) {
+  .menubar1 {
+    right: -941px;
+  }
 
-.extra{flex-basis: 70%;}
+  .underline {
+    width: 600px;
+  }
 
+  .logoandtext {
+    flex-direction: column;
+  }
 }
 
-
-
-@media screen and (max-width:951px){
-
-
-.awardpara1{font-size: smaller;}
-
-.awardpara{font-size: smaller;}
-
-.underline{width: 600px;}
-
+@media screen and (max-width: 1033px) {
+  .extra {
+    flex-basis: 70%;
+  }
 }
 
+@media screen and (max-width: 951px) {
+  .awardpara1 {
+    font-size: smaller;
+  }
 
-@media screen and (max-width:920px){
+  .awardpara {
+    font-size: smaller;
+  }
 
- .extra{flex-basis:84%;}
- 
- .textcarousel{top: 162px;}
+  .underline {
+    width: 600px;
+  }
+}
 
+@media screen and (max-width: 920px) {
+  .extra {
+    flex-basis: 84%;
+  }
 
+  .textcarousel {
+    top: 162px;
+  }
 
   /* .imagetestimonial {
                     width: 16%;} */
 
-
-
-  .logoandtext{flex-direction: column;}
+  .logoandtext {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width: 950px) {
+  .awardimage {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+  }
+  .remediesimage {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .extra {
+    flex-basis: 94%;
+  }
+
+  .logoandtext {
+    flex-direction: column;
+  }
+
+  .quicklinksmainbox {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 862px) {
+  .underline {
+    width: 600px;
+  }
+
+  .flexbox {
+    flex-direction: column;
+    row-gap: 35px;
+  }
+
+  .logoandtext {
+    flex-direction: column;
+  }
+
+  .footerpara {
+    font-size: 17px;
+  }
+
+  .mainemailbox {
+    font-size: 17px;
+  }
+
+  .quicklinkstart {
+    font-size: medium;
+  }
+
+  .extra {
+    flex-basis: 71%;
+  }
+}
+
+@media screen and (max-width: 857px) {
+  .underline {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .extra {
+    flex-basis: 84%;
+  }
+}
+
+@media screen and (max-width: 833px) {
+  .underline {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 817px) {
+  .underline {
+    width: 600px;
+  }
+
+  .awardpara1 {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 803px) {
+  .underline {
+    width: 600px;
+  }
+
+  .awardpara {
+    font-size: 12px;
+  }
+
+  .awardpara1 {
+    font-size: 12px;
+  }
+
+  .getintouch {
+    width: 78%;
+  }
+
+  .Contact {
+    width: 93%;
+  }
+
+  .phoneicon {
+    height: 26px;
+  }
+
+  .logoandtext {
+    flex-direction: column;
+  }
+
+  .quicklinksmainbox {
+    flex-basis: 76%;
+  }
+
+  .subscribetext {
+    font-size: smaller;
+  }
+
+  .emailplaced {
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .underline {
+    width: 447px;
+  }
+
+  .immerse1 {
+    font-size: 37px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .powerofayurveda1 {
+    grid-template-columns: auto auto;
+  }
+
+  .icons2 {
+    grid-template-columns: auto auto;
+  }
+
+  .awardtexthead {
+    font-size: 13px;
+  }
+
+  .testimonialtext1234 {
+    font-size: 15px;
+  }
+
+  .name {
+    margin: unset;
+  }
 
   .awardimage {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 10px;
-}
-  
-}
-
-
-@media screen and (max-width:875px){
-
-  .extra{flex-basis:94%;}
-
-  .logoandtext{flex-direction: column;}
-  
-  .quicklinksmainbox{height: auto;}
-}
-
-
-
-
-
-
-@media screen and (max-width:862px) {
-
-.underline{width: 600px;}
-
-.flexbox{flex-direction: column;
-  row-gap: 35px;}
-
-.logoandtext{flex-direction: column;}
-
-
-.footerpara{font-size: 17px;}
-
-.mainemailbox{font-size: 17px;}
-
-.quicklinkstart{font-size: medium;}
-
-.extra{flex-basis: 71%;}
-
-}
-
-
-@media screen and (max-width:857px){
-
-  .underline{width: 600px;}
-  
-
-  
   }
 
-
-@media  screen and (max-width:845px){
-
-  .extra{flex-basis: 84%;}
-  
-}
-
-
-@media screen and (max-width:833px){
-
-  .underline{width: 600px;}
-
-
-
-}
-
-
-@media screen and (max-width:817px){
-
-  .underline{width: 600px;}
-  
-  .awardpara1{font-size: smaller;}
-  
-  
+  .awardimageplacing {
+    width: 274px;
   }
-  
 
+  .flexbox {
+    flex-direction: column;
+    row-gap: 35px;
+  }
 
+  .logoandtext {
+    flex-direction: column;
+  }
 
-@media screen and (max-width:803px){
+  .footerpara {
+    font-size: 17px;
+  }
 
-.underline{width: 600px;}
+  .mainemailbox {
+    font-size: 17px;
+  }
 
-.awardpara{font-size: 12px;}
+  .quicklinkstart {
+    font-size: medium;
+  }
 
-.awardpara1{font-size: 12px;}
+  .shape {
+    height: 54px;
+  }
 
-.getintouch{width: 78%;}
+  .slidingbox {
+    min-height: 14px;
+  }
 
-.Contact{width: 93%;}
-
-.phoneicon{height: 26px;}
-
-.logoandtext{flex-direction: column;}
-
-.quicklinksmainbox{flex-basis: 76%;}
-
-.subscribetext{font-size: smaller;}
-
-.emailplaced{    font-size: x-small;}
-
-} 
-
-
-@media screen and (max-width:768px){
-
-.underline{width: 447px;;}
-
-.immerse1{font-size: 37px;}
-
-
-
-.text{font-size: 16px;}
-
-.powerofayurveda1{grid-template-columns: auto auto;}
-
-.icons2{grid-template-columns: auto auto;}
-
-.awardtexthead{font-size: 13px;}
-
-
- 
-.testimonialtext1234{font-size: 15px;}
-
-.name{margin: unset;}
-
-
-
-.awardimage{display: grid;
-            grid-template-columns: auto auto;
-            row-gap: 10px;}
-
-.awardimageplacing{width: 274px;}
-
-.flexbox{flex-direction: column;
-         row-gap: 35px;}
-
-.logoandtext{flex-direction: column;}
-
-
-.footerpara{font-size: 17px;}
-
-.mainemailbox{font-size: 17px;}
-
-.quicklinkstart{font-size: medium;}
-
-.shape{height: 31px;}
-
-.slidingbox{min-height: 14px;}
-
-.extra{flex-basis: 102%;}
-
+  .extra {
+    flex-basis: 102%;
+  }
 }
 
-@media screen and (max-width:742px){
-
-.Immerse2{
-          font-size: 15px;
+@media screen and (max-width: 742px) {
+  .Immerse2 {
+    font-size: 15px;
+  }
+  .imagesetting {
+    margin: auto;
+  }
 }
-.imagesetting{margin:auto}
 
+@media screen and (max-width: 698px) {
+  .welcome1 {
+    flex-direction: column;
+  }
 
-}
+  .footer {
+    padding-top: 11px;
+  }
 
+  .awardimage {
+    row-gap: 10px;
+  }
 
+  .phonecontact {
+    margin-left: inherit;
+  }
 
+  .Immerse2 {
+    font-size: medium;
+  }
 
-@media screen and (max-width:698px){
+  .awardimageplacing {
+    width: 253px;
+  }
 
-  .welcome1{flex-direction: column;}
+  .emailplaced {
+    font-size: x-small;
+  }
 
-  .footer{padding-top: 11px;}
+  .subscribetext {
+    font-size: x-small;
+  }
 
-  .awardimage{row-gap: 10px;}
+  .getintouch {
+    width: 86%;
+  }
 
-  .phonecontact{margin-left: inherit;}
-
-  .Immerse2{font-size: medium;}
-
-  .awardimageplacing{width: 253px;}
-
-  .emailplaced{font-size: x-small;}
-
-  .subscribetext{font-size: x-small;}
-  
-  .getintouch{width: 86%;}
-
-  
   .imgtestimonial {
     width: 78px;
+  }
 }
 
-}
-
-
-  @media screen and (max-width:668px){
-
-    .awardimageplacing {
-      width: 243px;}
-
-      .footer{flex-direction: column;}
-
-      .quicklinkstart{height: auto;}
-
-.quicklinksmainbox{padding-bottom: 22px;}
-      
-      
+@media screen and (max-width: 668px) {
+  .awardimageplacing {
+    width: 243px;
   }
 
+  .footer {
+    flex-direction: column;
+  }
 
+  .quicklinkstart {
+    height: auto;
+  }
 
-
-@media screen and (max-width:653px){
-
-  .awardimageplacing{width: 236px;}
-
-  .awardimage{row-gap: 10px;}
-
-
-  
+  .quicklinksmainbox {
+    padding-bottom: 22px;
+  }
 }
 
+@media screen and (max-width: 653px) {
+  .awardimageplacing {
+    width: 236px;
+  }
 
-
-
-@media screen and (max-width:618px){
-
- .welcome1{font-size: small;} 
-
- .awardimageplacing{width: 224px;}
-
- .healingpowerin{font-size: smaller;}
-
- .natural1{font-size: smaller;}
-
- .icons1{font-size: smaller;}
-
- .awardsheading{font-size: smaller;}
-
- .testimonialheading{font-size: smaller;}
-
- .testimonialtext1234{font: size 12px;}
-
-.footerpara{font-size: 10px;}
-
-.emailiconbox{column-gap: 1px;}
-
-.mainemailbox{font-size: 12px;}
-
-.phonenumber{column-gap: 10px;}
-
-.phonecontact{font-size: 12px;}
-
-.phoneicon{width: 7%;}
-
-.emailadjust{width: 50%;}
-  
-.quicklinkstart{font-size: 12px;}
-
-.awardimage{row-gap: 10px;}
+  .awardimage {
+    row-gap: 10px;
+  }
 }
 
+@media screen and (max-width: 618px) {
+  .welcome1 {
+    font-size: small;
+  }
 
-@media screen and (max-width:612px){
+  .awardimageplacing {
+    width: 224px;
+  }
 
+  .healingpowerin {
+    font-size: smaller;
+  }
+
+  .natural1 {
+    font-size: smaller;
+  }
+
+  .icons1 {
+    font-size: smaller;
+  }
+
+  .awardsheading {
+    font-size: smaller;
+  }
+
+  .testimonialheading {
+    font-size: smaller;
+  }
+
+  .testimonialtext1234 {
+    font: size 12px;
+  }
+
+  .footerpara {
+    font-size: 10px;
+  }
+
+  .emailiconbox {
+    column-gap: 1px;
+  }
+
+  .mainemailbox {
+    font-size: 12px;
+  }
+
+  .phonenumber {
+    column-gap: 10px;
+  }
+
+  .phonecontact {
+    font-size: 12px;
+  }
+
+  .phoneicon {
+    width: 7%;
+  }
+
+  .emailadjust {
+    width: 50%;
+  }
+
+  .quicklinkstart {
+    font-size: 12px;
+  }
+
+  .awardimage {
+    row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 612px) {
   .textcarousel {
     top: 94px;
   }
 
-.Contact{margin: inherit;}
+  .Contact {
+    margin: inherit;
+  }
 
-.phoneicon{width: 19%;}
+  .phoneicon {
+    width: 19%;
+  }
 
+  .getintouch {
+    font-size: 13px;
+  }
 
-.getintouch{font-size: 13px;}
+  .awardimage {
+    row-gap: 10px;
+  }
 
-.awardimage{row-gap: 10px;}
+  .orginaltestimonial {
+    flex-direction: column;
+  }
 
-.orginaltestimonial{
-  flex-direction:column;
-}
-
-.testimonialtext12{text-align: center;}
-
-.awardimageplacing {
-  width: 186px;}
-
-}
-
-@media screen and (max-width:608px){
-
-
-.remedies {
- 
-  overflow-x:scroll;
-  column-gap: 10px;
-  
-}
-
-.imagesetting {
-  width: 55%;
-  left: 0;}
-
-.textcarousel {
-  top: 58px;}
+  .testimonialtext12 {
+    text-align: center;
+  }
 
   .awardimageplacing {
-    width: 220px;}
-
-.inform{font-size: 13px;} 
-
-.awardimage{row-gap: 10px;}
-
-.phonenumber{width: 139px;}
-
-
+    width: 186px;
+  }
 }
 
-@media screen and (max-width:578px){
+@media screen and (max-width: 608px) {
+  .remedies {
+    overflow-x: scroll;
+    column-gap: 10px;
+  }
+
+  .imagesetting {
+    width: 55%;
+    left: 0;
+  }
+
+  .textcarousel {
+    top: 58px;
+  }
 
   .awardimageplacing {
-    width:200px;
+    width: 220px;
+  }
+
+  .inform {
+    font-size: 13px;
+  }
+
+  .awardimage {
+    row-gap: 10px;
+  }
+
+  .phonenumber {
+    width: 139px;
+  }
 }
 
-.imagesetting{left: 0;}
-}
-
-
-
-
-@media screen and (max-width:533px){
-
-.immerse1{font-size: 28px;}
-
-.Immerse2{font-size: small;
-          margin-top: -12px;}
-
-.underline{width: 364px;}
-
-.awardimageplacing{width: 181px;}
-
-.imagesetting{left: 0;
-              width: 50%;}
-
-.subscribetext{font-size: smaller;}
-
-.emailplaced{font-size: x-small;}
-
-
-.emailadjust{width: 16px;}
-
-.mainemailbox{font-size: 10px;}
-
-.phonenumber{height:inherit;}
-
-.footer{flex-direction: column;}
-
-.quicklinkstart{height: auto;}
-
-.phoneicon{width: 19%;}
-
-.emailiconbox{column-gap: 14px;}
-
-.remediesimage{display: flex;
-  flex-direction: column;
-  row-gap: 70px;}
-
-  .slidingbox{min-height: 48px;}
-
-.shape{height: 45px;}
-
-.awardimage{row-gap: 10px;}
-
-.phoneicon12{width: 20px;}
-
-.imagesetting{left: 0;}
-
-
-}
-
-
-
-@media screen and (max-width:480px){
-
-
-
-.immerse1{font-size: 27px;}
-
-.Immerse2{font-size: 12px;
-          margin-top: -8px;}
-
-.welcome1{font-size:small;}
-
-.powerofayurveda1{grid-template-columns: auto;}
-
-.remediesimage{display: flex;
-               flex-direction: column;
-               row-gap: 70px;}
-
-.awardimageplacing{width:150px;}
-
-.iconbox1{height: 179px;}
-
-
-.awardpara1{font-size: 10px;}
-
-.logo{margin-top: 1px;}
-
-
-.awardimageplacing {
-  width: 161px;}
-
-
-.phonenumber{font-size: 14px;}
-
-.mainemailbox{font-size: 14px;}
-
-
-.footerpara{font-size: smaller;}
-
-.emailiconbox{width: 70%;}
-
-.emailplaced{font-size: xx-small;}
-
-.subscribetext{font-size: xx-small;}
-
-.slidingbox{min-height: 48px;}
-
-.shape{height: 45px;}
-
-.naturevalleytext{font-size: small;
-                  margin-left:55px;
-                  margin-top:0px;}
-
-.awardpara1{font-size: 12px;}
-
-.imagesetting{left: 0;}
-
-.copypara{font-size: small;}
-
-.remediesimage{row-gap: 10px;}
-
-.quicklinksmainbox{padding-bottom: 20px;}
-
-.awardimage{row-gap: 10px;}
-
-}
-
-@media screen and (max-width:468px){
-
-
-  .underline{width: 240px;}
-
-  .immerse1{font-size: 19px;}
-
-  .Immerse2{margin-top: -9px;
-            font-size: 8px;}
-
-  .awardsheading{font-size: small;}
-
-  .awardimage{row-gap: 10px;}
-
-  .imagesetting{left: 0;}
-  
-}
-
-
-@media screen and (max-width:420px){
-  .awardimage{row-gap: 10px;}
-
-  .imagesetting{left: 0;}
-   
+@media screen and (max-width: 578px) {
   .awardimageplacing {
-    width: 147px;}
+    width: 200px;
+  }
 
+  .imagesetting {
+    left: 0;
+  }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width: 533px) {
+  .immerse1 {
+    font-size: 28px;
+  }
 
+  .Immerse2 {
+    font-size: small;
+    margin-top: -12px;
+  }
+
+  .underline {
+    width: 364px;
+  }
+
+  .awardimageplacing {
+    width: 181px;
+  }
+
+  .imagesetting {
+    left: 0;
+    width: 50%;
+  }
+
+  .subscribetext {
+    font-size: smaller;
+  }
+
+  .emailplaced {
+    font-size: x-small;
+  }
+
+  .emailadjust {
+    width: 16px;
+  }
+
+  .mainemailbox {
+    font-size: 10px;
+  }
+
+  .phonenumber {
+    height: inherit;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .quicklinkstart {
+    height: auto;
+  }
+
+  .phoneicon {
+    width: 19%;
+  }
+
+  .emailiconbox {
+    column-gap: 14px;
+  }
+
+  .remediesimage {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+  }
+
+  .slidingbox {
+    min-height: 48px;
+  }
+
+  .shape {
+    height: 45px;
+  }
+
+  .awardimage {
+    row-gap: 10px;
+  }
+
+  .phoneicon12 {
+    width: 20px;
+  }
+
+  .imagesetting {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .immerse1 {
+    font-size: 27px;
+  }
+
+  .Immerse2 {
+    font-size: 12px;
+    margin-top: -8px;
+  }
+
+  .welcome1 {
+    font-size: small;
+  }
+
+  .powerofayurveda1 {
+    grid-template-columns: auto;
+  }
+
+  .remediesimage {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+  }
+
+  .awardimageplacing {
+    width: 150px;
+  }
+
+  .iconbox1 {
+    height: 179px;
+  }
+
+  .awardpara1 {
+    font-size: 10px;
+  }
+
+  .logo {
+    margin-top: 1px;
+  }
+
+  .awardimageplacing {
+    width: 161px;
+  }
+
+  .phonenumber {
+    font-size: 14px;
+  }
+
+  .mainemailbox {
+    font-size: 14px;
+  }
+
+  .footerpara {
+    font-size: smaller;
+  }
+
+  .emailiconbox {
+    width: 70%;
+  }
+
+  .emailplaced {
+    font-size: xx-small;
+  }
+
+  .subscribetext {
+    font-size: xx-small;
+  }
+
+  .slidingbox {
+    min-height: 48px;
+  }
+
+  .shape {
+    height: 45px;
+  }
+
+  .naturevalleytext {
+    font-size: small;
+    margin-left: 55px;
+    margin-top: 0px;
+  }
+
+  .awardpara1 {
+    font-size: 12px;
+  }
+
+  .imagesetting {
+    left: 0;
+  }
+
+  .copypara {
+    font-size: small;
+  }
+
+  .remediesimage {
+    row-gap: 10px;
+  }
+
+  .quicklinksmainbox {
+    padding-bottom: 20px;
+  }
+
+  .awardimage {
+    row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .underline {
+    width: 240px;
+  }
+
+  .immerse1 {
+    font-size: 19px;
+  }
+
+  .Immerse2 {
+    margin-top: -9px;
+    font-size: 8px;
+  }
+
+  .awardsheading {
+    font-size: small;
+  }
+
+  .awardimage {
+    row-gap: 10px;
+  }
+
+  .imagesetting {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .awardimage {
+    row-gap: 10px;
+  }
+
+  .imagesetting {
+    left: 0;
+  }
+
+  .awardimageplacing {
+    width: 147px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .icons2 {
     grid-template-columns: auto;
-    gap: 20px;}
+    gap: 20px;
+  }
 
-  .awardimage{grid-template-columns: auto;}
+  .awardimage {
+    grid-template-columns: auto;
+  }
 
-  .awardimage1{align-items: center;}
+  .awardimage1 {
+    align-items: center;
+  }
 
-  .imagesetting{bottom: 31px;
-                left: 0;}
+  .imagesetting {
+    bottom: 31px;
+    left: 0;
+  }
 
   .imagetestimonial {
     width: 50%;
+  }
 
+  .powerofayurveda1 {
+    gap: 20px;
+  }
+
+  .remedies {
+    column-gap: 15px;
+  }
+
+  .logoandtext {
+    gap: 25px;
+  }
 }
-
-.powerofayurveda1{gap: 20px;}
-
-.remedies{column-gap: 15px;}
-
-.logoandtext{gap: 25px}
-
-}
-
-
-
-
-
-
-  
-
-
-
-
-  
-
